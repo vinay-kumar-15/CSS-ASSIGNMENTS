@@ -1,0 +1,3 @@
+responsive portfolio
+//used CSS variables
+//used media querires for responsive design 
