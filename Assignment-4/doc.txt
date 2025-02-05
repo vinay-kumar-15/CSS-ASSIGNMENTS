@@ -1,0 +1,5 @@
+practiced on flex-box
+
+display: flex; //align flex items in row by default
+flex-direction: column //align flex items in column you can change to row also
+ @media (max-width: 600px) {} //used   media queries for responsive if width less than 600px
