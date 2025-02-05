@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model practice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      margin: 20px;
+    }
+
+    .box {
+      background-color: lightblue;
+      padding: 20px; 
+      border: 2px solid blue;  
+      margin: 20px;  
+    }
+
+    .inline-box {
+      display: inline-block;  
+      width: 100px;
+      height: 100px;
+      background-color: lightcoral;
+      border: 1px solid red;
+      text-align: center;
+      line-height: 100px;
+      margin: 5px;
+    }
+
+    .block-box {
+      display: block;  
+      /* width: 100%; */
+      background-color: lightgreen;
+      /* border: 1px solid green; */
+      border: 1px dashed green;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .overflow-box {
+      width: 150px;
+      height: 150px;
+      overflow:scroll;  
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Box Model Example</h1>
+
+  <div class="box">
+    This is a box. It has content, padding, a border, and a margin.
+  </div>
+
+  <h2>Display Types</h2>
+  <div class="block-box">Block Element 1</div>
+  <div class="block-box">Block Element 2</div>
+
+  <div>
+    <span class="inline-box">Inline 1</span>
+    <span class="inline-box">Inline 2</span>
+    <span class="inline-box">Inline 3</span>
+  </div>
+
+  <h2>Overflow Example</h2>
+  <div class="overflow-box">
+    This is an overflow box. If the content inside exceeds the width or height, scrollbars will appear.
+    <br>More content...<br>More content...<br>More content...<br>More content...
+  </div>
+
+</body>
+</html>

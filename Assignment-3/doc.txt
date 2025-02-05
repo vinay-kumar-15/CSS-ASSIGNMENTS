@@ -1,0 +1,4 @@
+I used display(block, inline, inline-block) , overflow properties in this assignment
+display: block //it makes the element block level means like each element takes new line, takes whole width
+display: inline //it makes the element inline means takes only necessary space , not start new line
+display: inline-block //similar to inline but we can change the width and height, properties
