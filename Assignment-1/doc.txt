@@ -1,0 +1,6 @@
+css selector pratice
+
+h3:hover{} //to apply properties when hovered 
+li:nth-child(-n+2){} //apply changes to only first two childs (-0+ 2= 2, -1+ 2= 1)
+li:nth-child(3n) Applies to every 3rd list item (child 3, 6, 9, etc.)
+li:nth-last-child(-n+1) //Targets the last list item (nth-last-child 1).
