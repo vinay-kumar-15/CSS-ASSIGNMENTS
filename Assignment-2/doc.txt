@@ -1,0 +1,6 @@
+CSS text practice
+
+text-align: justify //ensures text is aligned on both sides left and right
+text-indent: 5px // adds indentation of 5px for first line of paragraph
+font-family: 'Roboto', sans-serif; //to apply font styles next to ',' font will apply if first isn't available
+text-shadow: 2px 2px 3px blue // text shadow   offset-x | offset-y | blur-radius | color
