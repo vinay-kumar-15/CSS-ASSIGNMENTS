@@ -1,0 +1,22 @@
+h3{
+    background-color: grey;
+    font-size: bold;
+    margin: 0;
+}
+h3:hover{
+    background-color: goldenrod;
+    font-size: bold;
+}
+
+li:nth-child(-n+ 2){
+    background-color: yellow;
+}
+
+li:nth-child(3n){
+    background-color: green;
+}
+ 
+li:nth-last-child(-n+ 1){
+    background-color: black;
+}
+
