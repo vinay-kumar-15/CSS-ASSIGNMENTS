@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Animations</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.header {
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header:hover {
+    color: #ff6347;  
+    transform: scale(1.2);  
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    /* margin: 20px 800px; */
+    margin: 20px auto;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.box:hover {
+    background-color: #ff6347;   
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-90px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.box {
+    animation: bounce 1s ease infinite;
+}
+
+    </style>
+</head>
+<body>
+    <h1 class="header">Welcome to My Simple Page</h1>
+    <div class="box"></div>
+</body>
+</html>

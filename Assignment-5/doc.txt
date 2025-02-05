@@ -1,0 +1,5 @@
+practice on animation and transition
+
+@keyframes //mostly used for animation/design like visual motion
+tansition //used for smoothly applying properties
+translate //like changing the postion for x-axis translateX for y-axis translateY
